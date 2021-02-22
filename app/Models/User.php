@@ -16,6 +16,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
         'name',
         'email',
         'password',
+        'introduction'
     ];
 
     protected $hidden = [
@@ -27,3 +28,6 @@ class User extends Authenticatable implements MustVerifyEmailContract
         'email_verified_at' => 'datetime',
     ];
 }
+
+
+
