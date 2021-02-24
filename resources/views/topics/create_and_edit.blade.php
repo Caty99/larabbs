@@ -60,7 +60,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/simditor.css') }}">
 @stop
 
-@section('scripts')
+ @section('scripts')
   <script type="text/javascript" src="{{ asset('js/module.js') }}"></script>
   <script type="text/javascript" src="{{ asset('js/hotkeys.js') }}"></script>
   <script type="text/javascript" src="{{ asset('js/uploader.js') }}"></script>
@@ -84,3 +84,4 @@
     });
   </script>
 @stop
+
